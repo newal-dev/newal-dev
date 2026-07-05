@@ -56,6 +56,7 @@ Full-stack student record management system with authentication and CRUD.
 Full-stack task management application featuring JWT authentication, protected routes, and personal to-do CRUD operations.
 
 **Tech:** Node.js, Express.js, React, PostgreSQL, JWT, bcryptjs, Express Validator
+
 ---
 
 ## 📊 GitHub Stats
