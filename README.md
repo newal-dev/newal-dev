@@ -8,10 +8,10 @@ Currently learning: Web Development, Node.js, PostgreSQL
 
 ## 🚀 About Me
 
-* I’m currently working on: blood bank management System
+* I’m currently working on: AI Flashcard Generator and Ethiostay: vacation rental and property booking platform
 * Learning: Full-Stack Development (Frontend + Backend + Databases)
-* Goal: Land an internship in tech within 3 months or less
-* Fun fact: I love building real-world systems like Student Management System apps
+* Goal: Land an internship in tech within 1 months or less
+* Fun fact: I love building real-world systems like Student Management System apps, Blood Donation Management System
 
 ---
 
@@ -24,14 +24,17 @@ Currently learning: Web Development, Node.js, PostgreSQL
 **Frontend:**
 
 * HTML, CSS, JavaScript
+* React (Vite)
 
 **Backend:**
 *Learning Node.js
+*Node.js, Express.js
 
 **Database:**
 
 * MySQL
 * SQL Server
+* PostgreSQL
 
 **Tools:**
 
@@ -49,6 +52,10 @@ Full-stack student record management system with authentication and CRUD.
 **Tech:** PHP, MySQL, JS, Bootstrap, HTML5, CSS3  
 **Demo:** https://student-management-web.kesug.com/login.php
 
+### 🔹 Todo App
+Full-stack task management application featuring JWT authentication, protected routes, and personal to-do CRUD operations.
+
+**Tech:** Node.js, Express.js, React, PostgreSQL, JWT, bcryptjs, Express Validator
 ---
 
 ## 📊 GitHub Stats
@@ -65,7 +72,7 @@ Full-stack student record management system with authentication and CRUD.
 
 ## 📫 Connect With Me
 
-* LinkedIn: (later)
+* LinkedIn: (www.linkedin.com/in/newal-mohammed1)
 * Email: (newalelias71@gmail.com)
 
 ---
