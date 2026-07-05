@@ -27,8 +27,8 @@ Currently learning: Web Development, Node.js, PostgreSQL
 * React (Vite)
 
 **Backend:**
-*Learning Node.js
-*Node.js, Express.js
+* Node.js
+* Express.js
 
 **Database:**
 
