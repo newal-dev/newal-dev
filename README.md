@@ -1,79 +1,96 @@
 # 👋 Hi, I'm Newal
 
-Aspiring **Full-Stack Developer**
-Based in Ethiopia
-Currently learning: Web Development, Node.js, PostgreSQL
+**Full-Stack Developer · Moving into AI/ML Engineering** · Based in Ethiopia
+
+4th-year Computer Science student (3.94 GPA). I build role-based web systems that real people use, from a logistics company's internal operations platform to an accessible, multilingual job and sign-up plug-in that placed **Top 3 at the ALX Accessibility Hackathon**.
+
+Right now I'm deepening my backend skills and growing into **AI/ML engineering**.
 
 ---
 
-## 🚀 About Me
+## 💼 Experience
 
-* I’m currently working on: AI Flashcard Generator and Ethiostay: vacation rental and property booking platform
-* Learning: Full-Stack Development (Frontend + Backend + Databases)
-* Goal: Land an internship in tech within 1 months or less
-* Fun fact: I love building real-world systems like Student Management System apps, Blood Donation Management System
+**Reflect Logistics and Transport PLC**
+Helped design and build the company's internal operations system: a role-based platform (Boss, Operations, Secretary, Finance) for shipments, fleet, customers and finance.
+* Shipment lifecycle from request to payment, with a full audit history and invalid status changes rejected
+* Settlement invoices calculated server-side and checked against the company's real paper forms, with PDF export
+* Document uploads (IDs, licences, vehicle papers) and payment dispute lookup by plate number
+
+**ConDigital · AI Trainer**
+Recorded step-by-step demonstrations of real marketing workflows, used as training data to teach AI systems how to carry out those tasks.
+
+---
+
+## 🏆 Featured Projects
+
+### 🔹 Inclusive Access: accessible sign-up and job plug-in · Top 3, ALX Accessibility Hackathon
+Built with Team Pixel. A plug-in any website can add with two lines of code, offering accessible sign-up, job search and job applications, plus a form for employers to post jobs.
+* Works in **six languages**: English, አማርኛ, Afaan Oromoo, ትግርኛ, Soomaali and Sidaamu Afoo
+* Voice input and read-aloud on every step; full keyboard and screen-reader support (NVDA, TalkBack)
+* Web Component in Shadow DOM, so the host site's CSS can't break it
+* REST API with an OpenAPI spec, LTI 1.3 launch for learning platforms, schema.org job data
+* **150+ automated tests** (unit, voice, API and axe-core browser tests) run on every push
+* WCAG 2.2 AA accessibility report
+
+**Tech:** Node.js, Web Components, Docker, Playwright, axe-core, OpenAPI
+- **Live:** https://inclusive-access.onrender.com/site/savanna/pages/signup.html
+- **Code:** [newal-dev/new-track1](https://github.com/newal-dev/new-track1)
+
+### 🔹 Mini Multi-Tenant Property Listing Platform
+Role-based property listing platform with Admin, Owner and User roles. Built end-to-end and deployed live.
+* JWT auth with role-based access control enforced at the middleware, service and database level
+* Transactional property publishing (validated atomically via Prisma `$transaction`)
+* Cloudinary image upload with server-side type and size validation
+* Soft deletes, database-enforced unique constraints, pagination and filtering
+* Server-side rendered public listings (Next.js) plus protected, role-specific dashboards
+* Optimistic UI updates with automatic rollback on failure
+
+**Tech:** Node.js, Express, Prisma, PostgreSQL, Next.js, TanStack Query, JWT, Cloudinary
+- **Live:** https://mini-property-listing-platform-khnu.vercel.app/
+- **API:** https://mini-property-listing-platform.onrender.com/api
+- **Docs:** in-repo technical decision document and Postman collection
+
+### 🔹 Student Management System (EduTrack)
+Full-stack student record management system with authentication and CRUD.
+
+**Tech:** PHP, MySQL, JavaScript, Bootstrap
+**Demo:** https://student-management-web.kesug.com/login.php
+
+### 🔹 Todo App
+Full-stack task manager with JWT authentication, protected routes and personal to-do CRUD.
+
+**Tech:** Node.js, Express.js, React, PostgreSQL, JWT, bcryptjs, Express Validator
 
 ---
 
 ## 🛠️ Tech Stack
- 
-**Languages:**
-* JavaScript
 
-**Frontend:**
-* HTML, CSS, JavaScript
-* React (Vite)
-* Next.js (App Router, SSR)
-* TanStack Query
+**Languages:** JavaScript, SQL, PHP
 
-**Backend:**
-* Node.js
-* Express.js
-* Prisma ORM
+**Frontend:** HTML, CSS, React (Vite), Next.js (App Router, SSR), TanStack Query, Web Components
 
-**Database:**
-* PostgreSQL
-* MySQL
-* SQL Server
+**Backend:** Node.js, Express.js, Prisma ORM, REST APIs, OpenAPI
 
-**Auth & Cloud:**
-* JWT & bcrypt
-* Cloudinary (image storage)
+**Databases:** PostgreSQL, MySQL, SQL Server
 
-**Tools:**
-* Git & GitHub
-* VS Code
-* Postman
-* Vercel / Render / Neon (deployment)
+**Auth & Cloud:** JWT and bcrypt, Cloudinary, Vercel, Render, Neon
+
+**Testing & Tools:** Playwright, axe-core, Docker, GitHub Actions, Git, Postman, VS Code
+
 ---
 
-## 📌 Projects
+## 🧠 Currently Learning
 
-### 🔹 Mini Multi-Tenant Property Listing Platform
-Role-based property listing platform with Admin, Owner, and User roles. Built end-to-end and deployed live.
-* JWT auth with role-based access control enforced at the middleware, service, and database level
-* Transactional property publishing (validated atomically via Prisma `$transaction`)
-* Cloudinary image upload with server-side type/size validation
-* Soft deletes, database-enforced unique constraints, pagination & filtering
-* Server-side rendered public listing page (Next.js) + protected, role-specific dashboards
-* Optimistic UI updates with automatic rollback on failure
+* Machine learning fundamentals and building applications on top of AI models
+* Data structures and algorithms
+* System design and production deployment
 
-**Tech:** Node.js, Express, Prisma, PostgreSQL, Next.js, TanStack Query, JWT, Cloudinary
-- **Live:** https://mini-property-listing-platform-khnu.vercel.app/ · 
-- **API:** https://mini-property-listing-platform.onrender.com/api · 
-- **Docs:** in-repo technical decision document + Postman collection
-  
-### 🔹 Student Management System (EduTrack)
+---
 
-Full-stack student record management system with authentication and CRUD.
+## 📫 Connect With Me
 
-**Tech:** PHP, MySQL, JS, Bootstrap, HTML5, CSS3  
-**Demo:** https://student-management-web.kesug.com/login.php
-
-### 🔹 Todo App
-Full-stack task management application featuring JWT authentication, protected routes, and personal to-do CRUD operations.
-
-**Tech:** Node.js, Express.js, React, PostgreSQL, JWT, bcryptjs, Express Validator
+* LinkedIn: [linkedin.com/in/newal-mohammed1](https://www.linkedin.com/in/newal-mohammed1)
+* Email: newalelias71@gmail.com
 
 ---
 
@@ -81,27 +98,4 @@ Full-stack task management application featuring JWT authentication, protected r
 
 ![GitHub stats](https://github-readme-stats.vercel.app/api?username=newal-dev&show_icons=true&theme=tokyonight)
 
----
-
-## 🔥 Streak Stats
-
 ![GitHub Streak](https://streak-stats.demolab.com/?user=newal-dev)
-
----
-
-## 📫 Connect With Me
-
-* LinkedIn: (www.linkedin.com/in/newal-mohammed1)
-* Email: (newalelias71@gmail.com)
-
----
-
-## 🧠 Currently Learning
-
-* Data Structures & Algorithms
-* Database transactions, access control design, and production deployment
-* Building real-world projects
-
----
-
-⭐ *“Discipline beats motivation when motivation runs out.”*
